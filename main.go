@@ -46,7 +46,7 @@ func main() {
 	versionCodePattern := `^versionCode (?P<version_code>.*)`
 	versionCodeRegexp := regexp.MustCompile(versionCodePattern)
 
-	versionNamePattern := `^versionName "(?P<version_code>.*)"`
+	versionNamePattern := `^versionName "(?P<version_name>.*)"`
 	versionNameRegexp := regexp.MustCompile(versionNamePattern)
 
 	updatedLines := []string{}
